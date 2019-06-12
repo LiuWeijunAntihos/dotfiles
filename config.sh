@@ -2,6 +2,7 @@
 
 set -e
 
+sudo apt-get update
 sudo apt-get install zsh python-pip
 chsh -s /bin/zsh
 
