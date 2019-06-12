@@ -3,7 +3,7 @@
 set -e
 
 apt-get update
-apt-get install zsh python-pip
+apt-get install -y --no-install-recommends zsh
 chsh -s /bin/zsh
 
 echo "====================="
