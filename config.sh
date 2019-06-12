@@ -2,8 +2,8 @@
 
 set -e
 
-sudo apt-get update
-sudo apt-get install zsh python-pip
+apt-get update
+apt-get install zsh python-pip
 chsh -s /bin/zsh
 
 echo "====================="
@@ -20,8 +20,8 @@ fi
 echo "====================="
 echo "2. Install"
 
-sudo mkdir -p ~/.oh-my-zsh
-sudo mkdir -p ~/.config
+mkdir -p ~/.oh-my-zsh
+mkdir -p ~/.config
 cp -R oh-my-zsh/* ~/.oh-my-zsh/
 chsh -s /bin/zsh
 cp oh-my-zsh/.zshrc ~/
